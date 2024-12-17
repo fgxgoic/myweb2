@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人博客</title>
+    <base target="_blank" />
+    <style>
+           * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: #f3f8fb;
+      }
+      .title {
+        height: 60px;
+        background: url(images/sz.png) no-repeat center center;
+      }
+      h1 {
+        text-align: center;
+        color: #666666;
+        font-size: 18px;
+        margin: 8px 0 15px 0;
+      }
+      .nav ul {
+        width: 1200px;
+        background-color: #012883;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+        list-style: none;
+        margin-bottom: 20px;
+      }
+      .nav li {
+        display: inline-block;
+        width: 70px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 40px;
+      }
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+      }
+      .nav li:hover {
+        background-color: #4e69a9;
+      }
+      .tv {
+        width: 1280px;
+        height: 400px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+      .screen {
+        width: 5120px;
+        animation: switch 8s ease-out infinite;
+      }
+      .screen > img {
+        width: 1280px;
+        height: 400px;
+        float: left;
+      }
+      @keyframes switch {
+        0%,
+        20% {
+          margin-left: 0;
+        }
+        25%,
+        45% {
+          margin-left: -1280px;
+        }
+        50%,
+        70% {
+          margin-left: -2560px;
+        }
+        75%,
+        100% {
+          margin-left: -3840px;
+        }
+      }
+      .content {
+        width: 1050px;
+        height: 330px;
+        margin: 15px auto;
+      }
+      .contentleft {
+        width: 750px;
+        height: 300px;
+        float: left;
+      }
+      .contentleft h4 {
+        margin-bottom: 10px;
+      }
+      .content .box1 {
+        width: 520px;
+        height: 300px;
+        float: left;
+      }
+
+      .box1 .box1top {
+        width: 500px;
+        height: 120px;
+        background-color: #fff;
+        padding: 10px;
+      }
+      .box1 .box1bottom {
+        width: 500px;
+        height: 120px;
+        background-color: #fff;
+        margin-top: 10px;
+        padding: 10px;
+      }
+      .photo {
+        width: 200px;
+        height: 120px;
+        float: left;
+        margin-right: 15px;
+      }
+      .photo > img {
+        width: 200px;
+        height: 120px;
+        border-radius: 10px;
+      }
+      .box1 p {
+        font-size: 14px;
+      }
+      .riqi {
+        font-size: 12px;
+        color: gray;
+        margin-top: 20px;
+      }
+      .box2 {
+        width: 180px;
+        height: 270px;
+        float: right;
+        padding: 10px;
+        background-color: #fff;
+      }
+      .box2 > img {
+        width: 180px;
+        height: 270px;
+        border-radius: 10px;
+      }
+      .contentright {
+        width: 260px;
+        height: 320px;
+        float: right;
+        background-color: #fff;
+        text-align: center;
+      }
+      .contentright h4 {
+        margin: 10px 0;
+        text-align: left;
+        margin-left: 15px;
+      }
+      .contentright > img {
+        width: 230px;
+        height: 130px;
+      }
+      .contentright table {
+        width: 160px;
+        height: 120px;
+        text-align: left;
+        margin-left: 15px;
+        font-size: 12px;
+      }
+      span {
+        color: #012883;
+      }
+      .footer {
+        width: 1060px;
+        margin: 0 auto;
+      }
+      .footer h4 {
+        margin-bottom: 20px;
+      }
+      .footer img {
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
+      .footer img:hover {
+        transform: translateY(-10px);
+      }
+      .zp {
+        width: 250px;
+        display: inline-block;
+        margin: 0 5px;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      .zp p {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+      }
+      .donman {
+        width: 1050px;
+        margin: 10px auto;
+      }
+      .donman h4 {
+        margin: 20px 0;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="title"></div>
+    <h1>个 人 网 页</h1>
+    <div class="nav">
+      <ul>
+        <li><a href="首页.html">首页</a></li> 
+      </ul>
+    </div>
+    <div class="tv">
+      <div class="screen">
+        <img src="./微信图片_20241217225651.jpg" alt="" />
+        <img src="./微信图片_20241217225648.jpg" alt="" />
+        <img src="./微信图片_20241217225642.jpg" alt="" />
+        <img src="./微信图片_20241217225638.jpg" alt="" />
+      </div>
+    </div>
+    <div class="content">
+      <div class="contentleft">
+        <h4>在读小说</h4>
+        <div class="box1">
+          <div class="box1top">
+            <div class="photo">
+              <img src="./微信图片_20241217225123.jpg" alt="" />
+            </div>
+            <p>"我们都是小怪兽，有一天会被正义的奥特曼杀死。"</p>
+            <p class="riqi">2024-12-17</p>
+          </div>
+          <div class="box1bottom">
+            <div class="photo">
+              <img src="./微信图片_20241217225128.jpg" alt="" />
+            </div>
+            <p>"极道万岁！"</p>
+            <p class="riqi">2024-12-17</p>
+          </div>
+        </div>
+        <div class="box2">
+          <img src="./微信图片_20241217215131.jpg" alt="" />
+        </div>
+      </div>
+      <div class="contentright">
+        <h4>个人介绍</h4>
+        <img src="./微信图片_20241217223128.jpg" alt="" />
+        <table>
+          <tr>
+            <td><span>姓名：</span></td>
+            <td>杨彬</td>
+          </tr>
+          <tr>
+            <td><span>学号：</span></td>
+            <td>223020623</td>
+          </tr>
+          <tr>
+            <td><span>班级：</span></td>
+            <td>人工智能2202班</td>
+          </tr>
+          <tr>
+            <td><span>学校：</span></td>
+            <td>成都锦城学院</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>个人喜爱</h4>
+      <div class="zp">
+        <img src="./微信图片_20241217224453.jpg" alt="" />
+        <p>鞠婧祎</p>
+      </div>
+      <div class="zp">
+        <img src="./微信图片_20241217224458.jpg" alt="" />
+        <p>周子瑜</p>
+      </div>
+      <div class="zp">
+        <img src="./微信图片_20241217224502.jpg" alt="" />
+        <p>蜡笔小新</p>
+      </div>
+      <div class="zp">
+        <img src="./微信图片_20241217224507.jpg" alt="" />
+        <p>凯里欧文</p>
+      </div>
+    </div>
+
+    <div class="donman">
+      <h4>游戏高光</h4>
+      <video
+        src="./8d2c2f129f751187ab5d2da69dc457a4.mp4"
+        controls
+        poster="images/luofen.jpg"
+        muted
+        width="1050px"
+      ></video>
+    </div>
+  </body>
+</html>
+
